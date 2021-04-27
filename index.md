@@ -3,10 +3,22 @@
 YourMoring is a setup guide intended for Mac users. In this guide, you'll learn how to 
 create a bash command that opens daily webpages accessed (typically) in the morning.
 
-### Markdown
+### Background
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+This guide assumes you have access to a Mac and at least some prior programming
+knowledge. The choice of the programming language is yours alone, however, I 
+encourage Python; justified primarily by its ease and swiftness (earnestly, no pun intended). 
 
+### Enumerating Your Needs
+1. Mac
+2. Python Interpreter -> https://www.python.org/downloads/mac-osx/
+3. Emacs (or vim if you're into that kind of stuff) -> https://www.gnu.org/software/emacs/download.html
+4. Access to Terminal
+
+### Let's Get Started
+```markdown
+
+```
 ```markdown
 Syntax highlighted code block
 
