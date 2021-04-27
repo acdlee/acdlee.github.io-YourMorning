@@ -7,3 +7,6 @@ For example, running the command "morning" in the terminal will open
 your email, your prefered news webpage, ect.
 
 This implementation is intended to take around 5-10 minutes. 
+
+GUIDE WEBPAGE (CLICK THIS FOR THE ACTUAL GUIDE):
+https://acdlee.github.io/acdlee.github.io-YourMorning/
