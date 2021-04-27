@@ -22,7 +22,7 @@ for better, more explicit explanations than provided here.
 ## Let's Get Started
 
 ### Creating the Project Folder<br />
-Create a project folder titled 'MyMorning' either in your Desktop folder (your home screen)<br />
+Create a project folder titled 'MyMorning' either in your Desktop folder (your home screen)
 or another project folder.<br />
 Note: For instruction's sake, I'll assume that the folder is located on the home screen.<br />
 
@@ -32,13 +32,14 @@ Open Terminal and type the command:<br />
 
 ### Writing the Python Script
 Using either Emacs, your favorite IDE, or your favorite text editor, create and open a file 
-named "mymorning.py". I'll assume you're opting for emacs. Use the following command:
-**emacs -nw mymorning.py**
-Notes: 'emacs' is a command to open the command line text editor, Emacs; 
+named "mymorning.py". I'll assume you're opting for emacs.<br />
+Use the following command:<br />
+**emacs -nw mymorning.py**<br />
+Notes: 'emacs' is a command to open the command line text editor, Emacs; <br />
        '-nw' is a command line argument selecting the "no window" option for the emacs text editor
-       
+<br />
 Add the following code to this file:
-`
+```markdown
 import webbrowser
 
 #function for opening websites in a browser
@@ -50,18 +51,18 @@ def open_daily(websites):
 #websites is a list of websites you wish to open when running the script
 websites = ["https://www.google.com/", "https://github.com/acdlee", "https://www.youtube.com/watch?v=5qap5aO4i9A"]
 open_daily(websites)
-`
+```
 
-Then, save the file with the following command:
-**CRTL-X CTRL-S**
-And exit the file:
-**CTRL-X CTRL-C**
+Then, save the file with the following command:<br />
+**CRTL-X CTRL-S**<br />
+And exit the file:<br />
+**CTRL-X CTRL-C**<br />
 Note: "CRTL-X CTRL-S" means you hold down the CTRL key and press the X key,
       and then hold down the CTRL key and press the S key.
       
 ### Running the Python Script
-To esnure everything's working, type the follow command:
-**python3 mymorning.py**
+To esnure everything's working, type the follow command:<br />
+**python3 mymorning.py**<br />
 You should open 3 webpages: Google, my Github, and some lofi music.
 If you run into some issues, feel to access the Oracle that is Google. 
 
