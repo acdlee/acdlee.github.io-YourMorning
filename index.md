@@ -20,7 +20,7 @@ If you need more help with the above list, search stackoverflow
 for better, more explicit explanations than provided here.
 
 ## Let's Get Started
-```markdown
+
 ### Creating the Project Folder
 Create a project folder titled 'MyMorning' either in your Desktop folder (your home screen)
 or another project folder. 
@@ -67,7 +67,6 @@ If you run into some issues, feel to access the Oracle that is Google.
 
 ### Writing the bash command
 
-```
 ```markdown
 Syntax highlighted code block
 
