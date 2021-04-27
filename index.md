@@ -1,22 +1,71 @@
-## Welcome to YourMorning
+# Welcome to YourMorning
 
 YourMoring is a setup guide intended for Mac users. In this guide, you'll learn how to 
 create a bash command that opens daily webpages accessed (typically) in the morning.
 
-### Background
+## Background
 
 This guide assumes you have access to a Mac and at least some prior programming
 knowledge. The choice of the programming language is yours alone, however, I 
 encourage Python; justified primarily by its ease and swiftness (earnestly, no pun intended). 
 
-### Enumerating Your Needs
+## Enumerating Your Needs
 1. Mac
 2. [Python Interpreter](https://www.python.org/downloads/mac-osx/)
 3. [Emacs](https://www.gnu.org/software/emacs/download.html)
 4. Access to Terminal
 
-### Let's Get Started
+### Note: 
+If you need more help with the above list, search stackoverflow
+for better, more explicit explanations than provided here.
+
+## Let's Get Started
 ```markdown
+### Creating the Project Folder
+Create a project folder titled 'MyMorning' either in your Desktop folder (your home screen)
+or another project folder. 
+Note: For instruction's sake, I'll assume that the folder is located on the home screen.
+
+Now that you have a home for your project, let's open the Terminal and navigate to this folder. 
+Open Terminal and type the command:
+**cd ~/Desktop/MyMorning**
+
+### Writing the Python Script
+Using either Emacs, your favorite IDE, or your favorite text editor, create and open a file 
+named "mymorning.py". I'll assume you're opting for emacs. Use the following command:
+**emacs -nw mymorning.py**
+Notes: 'emacs' is a command to open the command line text editor, Emacs; 
+       '-nw' is a command line argument selecting the "no window" option for the emacs text editor
+       
+Add the following code to this file:
+`
+import webbrowser
+
+#function for opening websites in a browser
+def open_daily(websites):
+        for website in websites:
+                webbrowser.open(website)
+
+
+#websites is a list of websites you wish to open when running the script
+websites = ["https://www.google.com/", "https://github.com/acdlee", "https://www.youtube.com/watch?v=5qap5aO4i9A"]
+open_daily(websites)
+`
+
+Then, save the file with the following command:
+**CRTL-X CTRL-S**
+And exit the file:
+**CTRL-X CTRL-C**
+Note: "CRTL-X CTRL-S" means you hold down the CTRL key and press the X key,
+      and then hold down the CTRL key and press the S key.
+      
+### Running the Python Script
+To esnure everything's working, type the follow command:
+**python3 mymorning.py**
+You should open 3 webpages: Google, my Github, and some lofi music.
+If you run into some issues, feel to access the Oracle that is Google. 
+
+### Writing the bash command
 
 ```
 ```markdown
