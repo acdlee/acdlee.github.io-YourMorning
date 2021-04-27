@@ -21,14 +21,14 @@ for better, more explicit explanations than provided here.
 
 ## Let's Get Started
 
-### Creating the Project Folder
-Create a project folder titled 'MyMorning' either in your Desktop folder (your home screen)
-or another project folder. 
-Note: For instruction's sake, I'll assume that the folder is located on the home screen.
+### Creating the Project Folder<br />
+Create a project folder titled 'MyMorning' either in your Desktop folder (your home screen)<br />
+or another project folder.<br />
+Note: For instruction's sake, I'll assume that the folder is located on the home screen.<br />
 
-Now that you have a home for your project, let's open the Terminal and navigate to this folder. 
-Open Terminal and type the command:
-**cd ~/Desktop/MyMorning**
+Now that you have a home for your project, let's open the Terminal and navigate to this folder.<br />
+Open Terminal and type the command:<br />
+**cd ~/Desktop/MyMorning**<br />
 
 ### Writing the Python Script
 Using either Emacs, your favorite IDE, or your favorite text editor, create and open a file 
