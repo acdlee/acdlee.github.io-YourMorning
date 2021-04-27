@@ -1,8 +1,7 @@
-## Welcome to GitHub Pages
+## Welcome to YourMorning
 
-You can use the [editor on GitHub](https://github.com/acdlee/acdlee.github.io-YourMorning/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+YourMoring is a setup guide intended for Mac users. In this guide, you'll learn how to 
+create a bash command that opens daily webpages accessed (typically) in the morning.
 
 ### Markdown
 
