@@ -11,8 +11,8 @@ encourage Python; justified primarily by its ease and swiftness (earnestly, no p
 
 ### Enumerating Your Needs
 1. Mac
-2. Python Interpreter -> https://www.python.org/downloads/mac-osx/
-3. Emacs (or vim if you're into that kind of stuff) -> https://www.gnu.org/software/emacs/download.html
+2. Python Interpreter -> [https://www.python.org/downloads/mac-osx/]
+3. Emacs (or vim if you're into that kind of stuff) -> (https://www.gnu.org/software/emacs/download.html)
 4. Access to Terminal
 
 ### Let's Get Started
