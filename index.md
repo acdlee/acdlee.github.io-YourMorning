@@ -69,6 +69,10 @@ You should open 3 webpages: Google, my Github, and some lofi music.<br />
 If you run into some issues, feel to access the Oracle that is Google. 
 
 ### Writing the bash command
+We will now navigate to our .bash_profile and write a new command.
+Follow the following commands to open your .bash_profile : <br />
+**cd** <br />
+**emacs -nw .bash_profile** <br />
 
 ```markdown
 Syntax highlighted code block
