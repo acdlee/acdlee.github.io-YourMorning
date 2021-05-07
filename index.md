@@ -101,3 +101,15 @@ when you type 'morning' in terminal, you'll run the python file
 Note:<br />
 'source .bash_profile' is just a command "updating" your .bash_profile.
 Any change to this file must be followed by this command for it to work. 
+
+#Wrap Up
+That's all there is to it! Experimenting with you .bash_profile is a fun
+and easy way to be creative with your terminal window. Some other quick examples 
+of what you can do:<br />
+-change the colors of your folders in the terminal<br />
+-alias directories for quick access<br />
+-open jupyter notebook in a specific directory with a one-word command<br />
+-alias compilers and interpreters<br /> 
+
+**Thanks** for reading! I hope this guide was helpful and informative. Reach out with Github
+with any questions and I'll be happy to help.
