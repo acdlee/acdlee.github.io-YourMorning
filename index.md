@@ -28,8 +28,9 @@ Note:<br />For instruction's sake, I'll assume that the folder is located on the
 
 Now that you have a home for your project, let's open the Terminal and navigate to this folder.<br />
 Open Terminal and type the command:<br />
+```markdown
 **cd ~/Desktop/MyMorning**
-
+```
 ### Writing the Python Script
 Using either Emacs, your favorite IDE, or your favorite text editor, create and open a file 
 named "mymorning.py". I'll assume you're opting for emacs.<br />
