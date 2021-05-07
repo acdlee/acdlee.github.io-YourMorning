@@ -35,7 +35,9 @@ cd ~/Desktop/MyMorning
 Using either Emacs, your favorite IDE, or your favorite text editor, create and open a file 
 named "mymorning.py". I'll assume you're opting for emacs.<br />
 Use the following command:<br />
-**emacs -nw mymorning.py**<br />
+```markdown
+emacs -nw mymorning.py
+```
 Notes:<br />'emacs' is a command to open the command line text editor, Emacs; <br />
        '-nw' is a command line argument selecting the "no window" option for the emacs text editor
 <br /><br />
@@ -57,23 +59,31 @@ open_daily(websites)
 ```
 
 Then, save the file with the following command:<br />
-**CRTL-X CTRL-S**<br />
+```markdown
+CRTL-X CTRL-S
+```
 And exit the file:<br />
-**CTRL-X CTRL-C**<br />
+```markdown
+**CTRL-X CTRL-C**
+```
 Note:<br />"CRTL-X CTRL-S" means you hold down the CTRL key and press the X key,
       and then hold down the CTRL key and press the S key.
       
 ### Running the Python Script
 To esnure everything's working, type the follow command:<br />
-**python3 mymorning.py**<br />
+```markdown
+python3 mymorning.py
+```
 You should open 3 webpages: Google, my Github, and some lofi music.<br />
 If you run into some issues, feel to access the Oracle that is Google. 
 
 ### Writing the bash command
 We will now navigate to our .bash_profile and write a new command.
 Follow the following commands to open your .bash_profile : <br />
-**cd** <br />
-**emacs -nw .bash_profile** <br />
+```markdown
+cd
+emacs -nw .bash_profile
+```
 
 ```markdown
 Syntax highlighted code block
