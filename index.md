@@ -102,7 +102,7 @@ Note:<br />
 'source .bash_profile' is just a command "updating" your .bash_profile.
 Any change to this file must be followed by this command for it to work. 
 
-#Wrap Up
+## Wrap Up
 That's all there is to it! Experimenting with you .bash_profile is a fun
 and easy way to be creative with your terminal window. Some other quick examples 
 of what you can do:<br />
