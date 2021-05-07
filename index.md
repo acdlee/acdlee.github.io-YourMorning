@@ -38,7 +38,7 @@ Use the following command:<br />
 ```markdown
 emacs -nw mymorning.py
 ```
-Notes:<br />'emacs' is a command to open the command line text editor, Emacs; <br />
+Notes:<br />'emacs' is a command to open the command line text editor, Emacs <br />
        '-nw' is a command line argument selecting the "no window" option for the emacs text editor
 <br /><br />
 Add the following code to this file:
@@ -95,12 +95,20 @@ Finally, enter the command:<br />
 source .bash_profile
 ```
 Here, you're aliasing the command "morning" with the command line input
-of 'python ~/Desktop/FILEPATH/MyMorning/mymorning.py'. Said another way, 
+of<br /> 'python ~/Desktop/FILEPATH/MyMorning/mymorning.py'.<br /> Said another way, 
 when you type 'morning' in terminal, you'll run the python file
 'mymorning.py'. <br />
 Note:<br />
 'source .bash_profile' is just a command "updating" your .bash_profile.
 Any change to this file must be followed by this command for it to work. 
+
+### Try It Out!
+Enter the following command to verify the script works correctly:
+```markdown
+morning
+```
+You should have the three aformentioned webpages (or any others you may have
+added) open up. 
 
 ## Wrap Up
 That's all there is to it! Experimenting with you .bash_profile is a fun
