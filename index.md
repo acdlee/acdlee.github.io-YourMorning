@@ -64,7 +64,7 @@ CRTL-X CTRL-S
 ```
 And exit the file:<br />
 ```markdown
-**CTRL-X CTRL-C**
+CTRL-X CTRL-C
 ```
 Note:<br />"CRTL-X CTRL-S" means you hold down the CTRL key and press the X key,
       and then hold down the CTRL key and press the S key.
@@ -84,31 +84,20 @@ Follow the following commands to open your .bash_profile : <br />
 cd
 emacs -nw .bash_profile
 ```
-
+Enter the following text in this file and save the file with
+the previous emacs commands mentioned above:
 ```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+alias morning='python ~/Desktop/FILEPATH/MyMorning/mymorning.py'
 ```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/acdlee/acdlee.github.io-YourMorning/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+where FILEPATH is the location of your MyMorning folder. <br />
+Finally, enter the command:<br />
+```markdown
+source .bash_profile
+```
+Here, you're aliasing the command "morning" with the command line input
+of 'python ~/Desktop/FILEPATH/MyMorning/mymorning.py'. Said another way, 
+when you type 'morning' in terminal, you'll run the python file
+'mymorning.py'. <br />
+Note:<br />
+'source .bash_profile' is just a command "updating" your .bash_profile.
+Any change to this file must be followed by this command for it to work. 
