@@ -50,11 +50,14 @@ def open_daily(websites):
         for website in websites:
                 webbrowser.open(website)
 
+#variables to hold website urls; customize as you wish
+google = "https://www.google.com/"
+github = "https://github.com/acdlee" 
+music = "https://www.youtube.com/watch?v=5qap5aO4i9A"
 
 #websites is a list of websites you wish to open when running the script
-websites = ["https://www.google.com/", 
-           "https://github.com/acdlee", 
-           "https://www.youtube.com/watch?v=5qap5aO4i9A"]
+websites = [google, github, music]
+
 open_daily(websites)
 ```
 
