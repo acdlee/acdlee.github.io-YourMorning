@@ -78,7 +78,7 @@ To ensure everything's working, type the follow command:<br />
 python3 mymorning.py
 ```
 You should open 3 webpages: Google, my Github, and some lofi music.<br />
-If you run into some issues, feel to access the Oracle that is Google. 
+If you run into some issues, feel free to access the Oracle that is Google. 
 
 ### Writing the bash command
 We will now navigate to our .bash_profile and write a new command.
@@ -114,13 +114,13 @@ You should have the three aformentioned webpages (or any others you may have
 added) open up. 
 
 ## Wrap Up
-That's all there is to it! Experimenting with you .bash_profile is a fun
+That's all there is to it! Experimenting with your .bash_profile is a fun
 and easy way to be creative with your terminal window. Some other quick examples 
 of what you can do:<br />
--change the colors of your folders in the terminal<br />
+-change the colors of your directories in the terminal<br />
 -alias directories for quick access<br />
 -open jupyter notebook in a specific directory with a one-word command<br />
 -alias compilers and interpreters<br /> 
 
-**Thanks** for reading! I hope this guide was helpful and informative. Reach out with Github
-with any questions and I'll be happy to help.
+**Thanks** for reading! I hope this guide was helpful and informative. Reach out through Github
+with any questions or recommendations for this quick guide.
