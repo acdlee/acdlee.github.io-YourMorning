@@ -6,7 +6,7 @@ create a bash command that opens daily webpages accessed (typically) in the morn
 ## Background
 
 This guide assumes you have access to a Mac and at least some prior programming
-knowledge. The choice of the programming language is yours alone, however, I 
+knowledge. Your choice of which programming language is yours alone, however, I 
 encourage Python; justified primarily by its ease and swiftness (earnestly, no pun intended). 
 
 ## Enumerating Your Needs
@@ -73,7 +73,7 @@ Note:<br />"CRTL-X CTRL-S" means you hold down the CTRL key and press the X key,
       and then hold down the CTRL key and press the S key.
       
 ### Running the Python Script
-To esnure everything's working, type the follow command:<br />
+To ensure everything's working, type the follow command:<br />
 ```markdown
 python3 mymorning.py
 ```
