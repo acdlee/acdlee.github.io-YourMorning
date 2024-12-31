@@ -31,14 +31,15 @@ Open Terminal and type the command:<br />
 cd ~/Desktop/MyMorning
 ```
 ### Writing the Python Script
-Using either Emacs, your favorite IDE, or your favorite text editor, create and open a file 
-named "mymorning.py". I'll assume you're opting for emacs.<br />
+Using either a text editor, the folder explorer on your OS, or the terminal, create and open a file 
+named "mymorning.py". The guide creates the file in the terminal and opens the file in VSCode.<br />
 Use the following command:<br />
 ```markdown
-emacs -nw mymorning.py
+touch ./mymorning.py
+code ./mymorning.py
 ```
-Notes:<br />'emacs' is a command to open the command line text editor, Emacs <br />
-       '-nw' is a command line argument selecting the "no window" option for the emacs text editor
+Notes:<br />'touch' is a bash command to create a file. <br />
+'code' is another command used here to open our target file.
 <br /><br />
 Add the following code to this file:
 ```markdown
@@ -62,14 +63,8 @@ open_daily(websites)
 
 Then, save the file with the following command:<br />
 ```markdown
-CRTL-X CTRL-S
+CTRL-S
 ```
-And exit the file:<br />
-```markdown
-CTRL-X CTRL-C
-```
-Note:<br />"CRTL-X CTRL-S" means you hold down the CTRL key and press the X key,
-      and then hold down the CTRL key and press the S key.
       
 ### Running the Python Script
 To ensure everything's working, type the follow command:<br />
@@ -81,10 +76,11 @@ If you run into some issues, feel free to access the Oracle that is Google.
 
 ### Writing the bash command
 We will now navigate to our .bash_profile and write a new command.
+On Mac or Linux, you can simply type "cd" to navigate to your .bash_profile.
+On Windows, I recommend reopening the terminal.
 Follow the following commands to open your .bash_profile : <br />
 ```markdown
-cd
-emacs -nw .bash_profile
+code .bash_profile
 ```
 Enter the following text in this file and save the file with
 the previous emacs commands mentioned above:
