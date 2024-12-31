@@ -5,14 +5,13 @@ create a bash command that opens daily webpages accessed (typically) in the morn
 
 ## Background
 
-This guide assumes you have access to a Mac and at least some prior programming
-knowledge. Your choice of which programming language is yours alone, however, I 
-encourage Python; justified primarily by its ease and swiftness (earnestly, no pun intended). 
+This guide assumes you have access to a computer and preferably some programming experience. This guide uses Python, but is easily adaptable to another language; use whatever is comfortable.
+Some experience in bash scripting is also helpful, but not required.
 
 ## Enumerating Your Needs
-1. Mac
-2. [Python Interpreter](https://www.python.org/downloads/mac-osx/)
-3. [Emacs](https://www.gnu.org/software/emacs/download.html)
+1. Computer
+2. [Python Interpreter](https://www.python.org/downloads/)
+3. [Text Editor]([https://www.gnu.org/software/emacs/download.html](https://code.visualstudio.com/))
 4. Access to Terminal
 
 ### Note: 
