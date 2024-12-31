@@ -11,7 +11,7 @@ Some experience in bash scripting is also helpful, but not required.
 ## Enumerating Your Needs
 1. Computer
 2. [Python Interpreter](https://www.python.org/downloads/)
-3. [Text Editor](https://www.gnu.org/software/emacs/download.html](https://code.visualstudio.com/)
+3. [Text Editor](https://code.visualstudio.com/)
 4. Access to Terminal
 
 ### Note: 
